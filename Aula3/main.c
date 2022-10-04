@@ -5,13 +5,23 @@
 int main()
 {
     setlocale(LC_ALL,"Portuguese");
+    int qc;
+    char morada[50],temp[50];
+    printf("Insira a sua morada: ");
+    gets(temp);
+    strcpy(morada,temp);
+   //puts( morada);
+    qc=strlen(morada);
+    printf("A sua morada  %s tem %d caracters.",morada,qc);
 
-    char nome[50];
+
+
+   /* char nome[50];
     printf("Insira o nome:");
-    gets(nome);
+    gets(nome);0
     puts(nome);
 
-    /*char nome[30],apelido[30],completo[60];
+    char nome[30],apelido[30],completo[60];
     printf("Insira o nome:");
     scanf("%s", &nome);
     printf("Insira o apelido:");
@@ -19,10 +29,10 @@ int main()
     //strcat(nome ," ");
     //strcat(nome ,apelido);
     sprintf(completo,"%s %s",nome,apelido);
-    printf("nome completo: %s %s", completo);*/
+    printf("nome completo: %s %s", completo);
 
 
-    /*int qc;
+    int qc;
     char nome[15]= "",nome2[12]="";
     printf("Insira o seu Nome que deseja calcular o número de caracters: ");
     scanf("%s", &nome);
