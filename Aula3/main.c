@@ -6,14 +6,20 @@ int main()
 {
     setlocale(LC_ALL,"Portuguese");
 
-    char nomecompleto[20],apelido[20];
+    char nome[50];
     printf("Insira o nome:");
-    scanf("%s", &nomecompleto);
+    gets(nome);
+    puts(nome);
+
+    /*char nome[30],apelido[30],completo[60];
+    printf("Insira o nome:");
+    scanf("%s", &nome);
     printf("Insira o apelido:");
     scanf("%s", &apelido);
-    strcat(nomecompleto ," ");
-    strcat(nomecompleto ,apelido);
-    printf("nome completo: %s %s", nomecompleto);
+    //strcat(nome ," ");
+    //strcat(nome ,apelido);
+    sprintf(completo,"%s %s",nome,apelido);
+    printf("nome completo: %s %s", completo);*/
 
 
     /*int qc;
