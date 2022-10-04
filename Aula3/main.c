@@ -5,6 +5,17 @@
 int main()
 {
     setlocale(LC_ALL,"Portuguese");
+
+    char nomecompleto[20],apelido[20];
+    printf("Insira o nome:");
+    scanf("%s", &nomecompleto);
+    printf("Insira o apelido:");
+    scanf("%s", &apelido);
+    strcat(nomecompleto ," ");
+    strcat(nomecompleto ,apelido);
+    printf("nome completo: %s %s", nomecompleto);
+
+
     /*int qc;
     char nome[15]= "",nome2[12]="";
     printf("Insira o seu Nome que deseja calcular o número de caracters: ");
@@ -15,22 +26,22 @@ int main()
     scanf("%s", &nome);
     strlen(nome2);
     strcpy(nome,nome2);
-    printf("\nQuantidade de caracters do nome%d",nome);*/
+    printf("\nQuantidade de caracters do nome%d",nome);
 
 
-   /* printf("Insira o seu Nome que deseja calcular o número de caracters:");
+    printf("Insira o seu Nome que deseja calcular o número de caracters:");
     scanf("%s", &nome);
     qc=strlen(nome);
-    printf("nome %s tem %d caracters.",nome,qc);*/
+    printf("nome %s tem %d caracters.",nome,qc);
 
-    /*char palavra1[20],palavra2[20];
+    char palavra1[20],palavra2[20];
     printf("Insira a palavra1:");
     scanf("%s", &palavra1);
     printf("Insira a palavra2:");
     scanf("%s", &palavra2);
     strcpy(palavra1,palavra2);
     printf("palavra 1:%s ",palavra1);
-    printf("palavra2 %s",palavra2);*/
+    printf("palavra2 %s",palavra2);
 
     char palavraA[20],palavraB[20],palavraC[20];
     printf("Insira a palavra1:");
@@ -43,9 +54,7 @@ int main()
     printf("palavra 1:%s ",palavraA);
     printf("palavra 2 %s",palavraB);
 
-
-
-    /*float area, raio;
+    float area, raio;
     printf("Raio da circunferencia? ");
     scanf("%f", &raio );
     area = M_PI * (raio*raio);
