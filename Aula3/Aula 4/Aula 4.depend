@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1665416029 source:c:\users\ilisboa\desktop\projetosc\projetosc\aula3\aula 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

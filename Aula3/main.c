@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 #include <math.h> //Para usar CONSTANTE M_PI
@@ -12,8 +12,8 @@ int main()
     strcpy(morada,temp);
    //puts( morada);
     qc=strlen(morada);
-    printf("A sua morada  %s tem %d caracters.",morada,qc);
-
+    printf("A sua morada  %s tem %d caracters!",morada,qc);
+    puts( morada);
 
 
    /* char nome[50];
