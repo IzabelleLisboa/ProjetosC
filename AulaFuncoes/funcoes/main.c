@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+//---------------------------------------------------
+//ex1
 //int menor(int n1,int n2)
 //{
 //int res=0;
@@ -53,70 +55,45 @@
 //-------------------------------------------------
 //ex3
 //se valor par retone 1 se ímpar retorne 0
-int parouimpar(int n1,int n2)
-
-    if(x%2==0)
-        return 1;
-    else
-        return -1;
-
-
-int main()
-{
-    setlocale(LC_ALL,"portuguese");
-    int x,y,resultado;
-    printf("Digite a base: ");
-    scanf("%d",&x);
-
-    printf("Digite o expoente: ");
-    scanf("%d",&y);
-    resultado = parouimpar(x,y);
-    printf("Potencia: %d ",resultado);
-
-    return 0;
-}
-//----------------------------------------------
-//int multiplica(int n1,int n2)
-//{
-////int res = n1*n2;
-//return n1*n2;
-//}
-//
 //int main()
 //{
 //    setlocale(LC_ALL,"portuguese");
 //    int x,y,resultado;
-//    printf("Introduz um numero: ");
+//    printf("Digite o número que deseja saber se é par ou ímpar: ");
 //    scanf("%d",&x);
-//
-//    printf("Introduz um numero: ");
-//    scanf("%d",&y);
-//    //-------------
-//    printf("Multiplicação: %d ",multiplica(x,y));
+//    resultado = parouimpar(x);
+//    printf("Par ou ímpar: %d ",resultado);
 //
 //    return 0;
+//}
+//int parouimpar(int n1)
+//{
+//    if(n1%2==0)
+//         return 1;
+//    else
+//        return 0;
 //}
 //----------------------------------------------------
-//outra versão
-//int multiplica(int n1,int n2)
+//ex4
+//int valor(int n1)
 //{
-//int res = n1*n2;
-//return res;
+//    if(n1>0)
+//         return 1;
+//    if(n1<0)
+//        return -1;
+//    return 0;
 //}
 //
 //int main()
 //{
 //    setlocale(LC_ALL,"portuguese");
 //    int x,y,resultado;
-//    printf("Introduz um numero: ");
+//    printf("Digite um valor caso positivo=>1, negativo =>-1,zero=>0 : ");
 //    scanf("%d",&x);
-//
-//    printf("Introduz um numero: ");
-//    scanf("%d",&y);
-//    resultado = multiplica(x,y);
-//    printf("Multiplicação: %d ",resultado);
+//    resultado = valor(x);
+//    printf("Tipo do valor: %d ",resultado);
 //
 //    return 0;
 //}
-//
+
 
