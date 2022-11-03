@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1667386501 source:c:\users\ilisboa\desktop\projetosc\projetosc\menufuncoes\ex5\main.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
